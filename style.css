@@ -1,0 +1,35 @@
+@media only screen {
+  body {
+    background: #222;
+    color: #eee;
+    font-family: sans-serif;
+    margin: 16px auto 16px auto;
+    max-width: 840px;
+    padding: 0 16px 0 16px;}
+  h1 {
+    background: #222;
+    font-weight: normal;
+    color: #eee;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #73C48F;}
+  h2 {
+    background: #222;
+    font-weight: normal;
+    padding: 6px;
+    color: #eee;}
+  p {
+    padding-left: 6px;}
+  a {
+    color: #73C48F;}
+  a:hover,  a:active {
+    background: #73C48F;
+    color: #000;}
+  li {
+    list-style-type: disc;}
+  blockquote {
+    border-left: 4px solid #0f7;
+    padding-left: 6px;}
+}
