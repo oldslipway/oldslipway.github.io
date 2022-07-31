@@ -1,7 +1,7 @@
 @media only screen {
   body {
-    background: #fff;
-    color: #24292F;
+    background: #24292f;
+    color: #eaeef2;
     font-family: sans-serif;
     font-size: 0.8em;
     line-height: 1.5;
@@ -9,17 +9,13 @@
     max-width: 700px;
     padding: 0 16px 0 16px;}
   h1 {
-    background: #fff;
-    color: #040D21;
     font-family: serif;
-    font-size: 64px;
+    font-size: 48px;
     line-height: 68px;
     letter-spacing: 0.3em;
     font-weight: 800;
     margin-bottom: 0;}
   h2 {
-    background: #fff;
-    color: #040D21;
     font-size: 2em;
     line-height: 34px;
     letter-spacing: 0.3em;
@@ -28,15 +24,15 @@
   p {
     padding-left: 0;}
   a {
-    color: #0969DA;
+    color: #7fabdf;
     text-decoration: none;}
   a:hover,  a:active {
-    background: #0969DA;
-    color: #eaeef2;}
+    background: #7fabdf;
+    color: #24292F;}
   li {
     list-style-type: none;}
   blockquote {
-    border-left: 4px solid #0f7;
+    border-left: 4px solid #eaeef2;
     padding-left: 6px;}
   .footer {
     font-size: 0.8em;
@@ -44,15 +40,15 @@
   .description {
     margin: 0;}
   .list-box {
-    background: #eaeef2;
+    background: #272828;
     border: 1px solid transparent;
     border-radius: 1em;
     padding: 16px;
     margin-top: 0;}
   .label {
-    background: #d0d7de;
-    color: #24292F;
-    border-color: #D0D7DE;
+    background: #7fabdf;
+    color: #272828;
+    border-color: transparent;
     padding: 0 7px;
     font-family: monospace;
     font-size: 0.9em;
@@ -63,29 +59,25 @@
     border-radius: 1em;
     margin-right: 8px;
     margin-left: 8px;}
-}
 /*Typing effect*/
   .wrapper {
     height: 90vh;
     display: grid;
     place-items: center;}
   .typing-demo {
-    width: 22ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    width: 27ch;
+    animation: typing 2s steps(20), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: serif;
-    font-size: 1.5em;
-    letter-spacing: 0.1em;}
+    font-size: 1em;
+    letter-spacing: 0.2em;}
 @keyframes typing {
   from {
-    width: 0
-  }
-}
+    width: 0;}}
 @keyframes blink {
   50% {
-    border-color: transparent}
+    border-color: transparent;}}
 }
-
 
